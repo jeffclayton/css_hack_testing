@@ -1,0 +1,18 @@
+
+
+Here are some css media query hack tests I have been conducting to target Chrome 29+ (separate from Safari)
+
+- here are my results: - -Jeff- -
+
+I sent this to browserhacks.com -- now posted on the site
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm)
+{
+   .selector { color:red; }
+}
+
+Notes: Hugo sent me info that at least one newer opera version may be affected
+
+Testing Results: I found that Opera 16+ are detected
+
+Final Results: Works for Chrome 29+ and Opera 16+ (Chrome 31 is the most recent at the time of this testing)
