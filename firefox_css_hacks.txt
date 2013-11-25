@@ -1,0 +1,40 @@
+
+Here are some css media query hack tests I have been conducting to isolate Firefox < 3 and check for Firefox > 4 
+
+- here are my combined results: - -Jeff- -
+
+I Submitted these to browserhacks (firefox 8+ hacks are now posted on browserhacks.com)
+
+
+
+Firefox 8+ (2 working media query hacks):
+
+
+@media all and (min--moz-device-pixel-ratio:0) and (min-resolution: .001dpcm)
+{
+   .selector { color:red }
+}
+
+
+@media all and (-moz-images-in-menus:0) and (min-resolution: .001dpcm)
+{
+   .selector { color:red; }
+}
+
+
+Firefox 3-
+
+
+@media \0 all
+{
+   body:last-child .selector { color:red; }
+}
+
+
+notes: 
+
+media \0 all { }
+
+-also works for MSIE 8 without the 'body:last-child' combination
+
+
