@@ -1,0 +1,16 @@
+
+
+Here is another css media query hack test I have been conducting to target Chrome only (separate from Safari)
+
+- here are my results: - -Jeff- -
+
+
+@media all and(-webkit-min-device-pixel-ratio:0)
+{
+   ::webkit, .selector { color:red; }
+}
+
+
+this one targets only chrome 22-24 (small subset but it works)
+
+I posted this to browserhacks.com in case they would find it interesting
