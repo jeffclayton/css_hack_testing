@@ -1,0 +1,31 @@
+
+Here are some css media query hack tests I have been conducting to isolate Internet Explorer 9 and 9+ 
+
+- here are my combined results: - -Jeff- -
+
+
+For MSIE 9
+
+
+@media all and (min-width:0\0) and (min-resolution: .001dpcm)
+{
+   .selector { color:red; }
+}
+
+
+For MSIE 9+ (9-11 -- at this time internet explorer 11 is out for windows 8.1)
+
+
+@media all and (min-width:0\0) and (min-resolution: +72dpi)
+{
+   .selector { color:red; }
+}
+
+
+Another one: (not as pretty, works...)
+
+
+@media all and (min-width:0\0) and (min-resolution: .001dpcm), all and (-ms-high-contrast: active), (-ms-high-contrast: none)
+{
+   .selector { color:red; }
+}
