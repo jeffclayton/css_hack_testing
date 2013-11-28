@@ -1,0 +1,12 @@
+Working with the dual media query hack and combining it with the previous firefox hacks I posted I got this set to work:
+
+These work for Firefox 11+
+(again, like the previous posting there are 2 of them, and tested at browsershots.org)
+
+@media all and (min--moz-device-pixel-ratio:0) { @media (min-width: 0px) { .selector { } } }
+
+@media all and (-moz-images-in-menus:0) { @media (min-width: 0px) { .selector { } } }
+
+I just posted these to browserhacks.com
+
+-Jeff-
