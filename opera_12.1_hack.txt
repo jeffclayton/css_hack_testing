@@ -1,0 +1,11 @@
+
+Another one of my hack combinations...
+
+This one is more surgical, for Opera 12.1x only
+
+-Jeff-
+
+@media all\0 { @media (min-width: 0px) 
+{
+   .selector {(; background-color:#C33; color:#FFF; );}
+}}
