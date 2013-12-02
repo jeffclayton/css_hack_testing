@@ -1,0 +1,12 @@
+
+Another I posted to browserhacks...
+
+-Jeff-
+
+Here is a simple one that worked and isn't overly ugly:
+
+_:-o-prefocus, .selector {}   /* Opera 9.5-12 and MSIE 7 */
+
+can be modified with another hack to remove MSIE 7 as follows:
+
+_:-o-prefocus, body:last-child .selector {}  /* Opera 9.5-12 (only) */
