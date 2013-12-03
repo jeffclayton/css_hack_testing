@@ -1,0 +1,8 @@
+
+Another one I came up with that seems to be the same results - just sent to browserhacks
+
+-Jeff-
+
+For Chrome 29+ and Opera 16+ 
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: +72dpi) { .selector { } }
