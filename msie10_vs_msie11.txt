@@ -1,0 +1,27 @@
+more of my contributions to browserhacks.com (as proof-of-concept) for separating ie10 and ie11+
+
+-Jeff
+
+-
+
+CSS
+
+.hide_element { display:none; visibility:hidden; }
+
+@media all and (-ms-high-contrast: active), (-ms-high-contrast: none) /* internet explorer 10+ media query */ { 
+.display_ie11up { visibility:visible; display:inline-block; } /* activate if ie 10 or above */
+.display_ie11up { display:none\9; visibility:hidden\9; } /* undo ie10 with slash-nine hack for ie 10 and less */
+}
+
+HTML
+
+<div class="hide_element display_ie11up"> MSIE 11+ </div> 
+
+-
+
+For ease of reading and a one-liner approach, here is the same method, but a much more simple view... 
+(like the old star/plus/underscore hacks for old msie versions):
+
+@media all and (-ms-high-contrast: active), (-ms-high-contrast: none) { body { color:blue; color:red\9; } }
+
+...shows in blue if ie11+
