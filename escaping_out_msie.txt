@@ -1,0 +1,42 @@
+Jenns, a contributor to browserhacks.com, posted an old excape trick hack on browserhacks that works in everything but versions of MSIE
+
+html[lang='\
+en'] {}
+
+I tested it and sent them the results using this as a test:
+
+html[lang='\
+en'] { color:green; }
+
+- - -
+
+   windows 8.0, msie 10 - green
+
+   windows 8.0, msie 7 (compatibility mode) - does not show green
+
+   windows xp, msie 8 - does not show green
+
+   windows 7, msie 9 - does not show green
+
+- - -
+
+It is on the browserhacks site now as such (posted by Hugo):
+
+html[lang='\
+en'] .selector {}
+
+- - -
+
+Of course my first thought is 'what can i mix it with and see what happens...'
+
+Crossing it with the \9 property hack you can use it to target only MSIE 10 like so:
+
+html[lang='\
+en'] .selector { color:#ff0000\9; }
+
+
+
+
+
+
+
