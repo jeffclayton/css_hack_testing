@@ -1,0 +1,17 @@
+
+it used to be that a few star and underscore hacks would target most ie versions in one css one-liner.
+
+this should target all of them in this order: 
+( ie11:blue, ie9-10:green, ie8:purple, ie7:orange, ie6:pink, anything else: black )
+
+.msiecolors { color:black;color:blue\0;color:green\9;color:purple \9;+color:orange;_color:pink; }
+
+/* the next one sets msie 10 to red (escape hack combined with \9 targets only msie 10) */
+
+html[lang='\
+en'] .msiecolors { color:red\9; }
+
+so after this, it should now be as follows...
+MSIE colors: ( ie11:blue, ie10:red, ie9:green, ie8:purple, ie7:orange, ie6:pink, anything else: black )
+
+<div class=msiecolors> msie color test </div>
