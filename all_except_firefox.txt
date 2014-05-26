@@ -1,0 +1,22 @@
+
+Testing css hacks to do anything but a specific browser, here is one I came up with that I also shared with Hugo and Tim on the browserhacks.com forum
+
+I have tested this on PC and Mac.
+
+-Jeff-
+
+------
+
+_::selection, .selector:not([attr*='']) { }​
+
+------
+
+sample usage:
+
+_::selection, .non_ff_browsers:not([attr*='']) /* anything but firefox */
+{ 
+	background-color:#F33;
+	color:#fff; 
+}
+
+<div class="non_ff_browsers">Anything Except Firefox</div>
