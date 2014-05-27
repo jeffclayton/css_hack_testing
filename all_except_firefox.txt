@@ -3,6 +3,8 @@ Testing css hacks to do anything but a specific browser, here is one I came up w
 
 I have tested this on PC and Mac.
 
+Note: this also excludes old versions of msie (8 and below)
+
 -Jeff-
 
 ------
