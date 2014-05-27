@@ -5,7 +5,7 @@ Here are some css media query hack tests I have been conducting to isolate Firef
 
 new ones!
 
-both of these I just created work for firefox 28 and newer: 
+both of these I just created work for firefox 22 and newer: 
 
 @supports (-moz-appearance:meterbar) 
 { 
