@@ -6,7 +6,6 @@ Here are some css media query hack tests I have been conducting to isolate Firef
 new ones!
 
 both of these I just created work for firefox 28 and newer: 
-(the meterbar and meterchunk are around since firefox 16 however)
 
 @supports (-moz-appearance:meterbar) 
 { 
