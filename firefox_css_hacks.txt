@@ -5,12 +5,15 @@ I have submitted most of these to browserhacks.com for inclusion.
 -Jeff- -
 
 
-Here is one I created to target Firefox 21+:
-
-_::-moz-range-track, body:last-child .selector { }
+Here is one I created to target Firefox 21+: (2 methods)
 
 
-both of these I created work for firefox 22 and newer: 
+_::-moz-range-track, body:last-child .selector { } 
+
+_::-moz-range-track, .selector:not([attr*='']) { } 
+
+
+both of these next ones I created work for firefox 22 and newer: 
 
 @supports (-moz-appearance:meterbar) and (display:flex)
 { 
