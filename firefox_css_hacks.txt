@@ -58,6 +58,10 @@ media \0 all { }
 
 -also works for MSIE 8 without the 'body:last-child' combination
 
+---
+
+guillaume-simons posted a few css hacks to the forum, I modified them to target just Firefox:
+
 @supports (-moz-appearance:meterbar) and (cursor:zoom-in) { .selector { } } - Firefox 24+
 @supports (-moz-appearance:meterbar) and (image-orientation: 90deg) { .selector { } } - Firefox 26+
 @supports (-moz-appearance:meterbar) and (all:initial) { .selector { } } - Firefox 27+
@@ -67,7 +71,7 @@ media \0 all { }
 I do not have a version of firefox 30 to test, but if anyone can test it, by the same token this should also work:
 
 @supports (-moz-appearance:meterbar) and (background-blend-mode:difference,normal) { .selector { } } - Firefox 30+
-guillaume-simons posted a few css hacks to the forum, I modified them to target just Firefox:
+
 
 
 @supports (-moz-appearance:meterbar) and (cursor:zoom-in) { .selector { } } - Firefox 24+
