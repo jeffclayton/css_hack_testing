@@ -7,7 +7,7 @@ new ones!
 
 both of these I just created work for firefox 22 and newer: 
 
-@supports (-moz-appearance:meterbar) 
+@supports (-moz-appearance:meterbar) and (display:flex)
 { 
    .selector 
    { 
@@ -16,7 +16,7 @@ both of these I just created work for firefox 22 and newer:
 }
 
 
-@supports (-moz-appearance:meterchunk) 
+@supports (-moz-appearance:meterchunk) and (display:flex)
 { 
    .selector 
    { 
