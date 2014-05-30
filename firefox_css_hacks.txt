@@ -7,7 +7,7 @@ I have submitted most of these to browserhacks.com for inclusion.
 
 Here is one I created to target Firefox 21+:
 
-_::-moz-range-track, .selector { }
+_::-moz-range-track, body:last-child .selector { }
 
 
 both of these I created work for firefox 22 and newer: 
