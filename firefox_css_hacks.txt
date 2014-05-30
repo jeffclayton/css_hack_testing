@@ -76,9 +76,6 @@ guillaume-simons posted a few css hacks to the forum, I modified them to target 
 @supports (-moz-appearance:meterbar) and (all:initial) { .selector { } } - Firefox 27+
 @supports (-moz-appearance:meterbar) and (list-style-type:japanese-formal) { .selector { } } - Firefox 28+
 @media all and (min--moz-device-pixel-ratio:0) and (min-resolution:3e1dpcm) { .selector { } } - Firefox 29+ [this one already is firefox alone and works well]
-
-I do not have a version of firefox 30 to test, but if anyone can test it, by the same token this should also work:
-
 @supports (-moz-appearance:meterbar) and (background-blend-mode:difference,normal) { .selector { } } - Firefox 30+
 
 
