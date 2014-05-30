@@ -63,9 +63,9 @@ media \0 all { }
 guillaume-simons posted a few css hacks to the forum, I modified them to target just Firefox:
 
 @supports (-moz-appearance:meterbar) and (cursor:zoom-in) { .selector { } } - Firefox 24+
-@supports (-moz-appearance:meterbar) and (image-orientation: 90deg) { .selector { } } - Firefox 26+
+@supports (-moz-appearance:meterbar) and (image-orientation:90deg) { .selector { } } - Firefox 26+
 @supports (-moz-appearance:meterbar) and (all:initial) { .selector { } } - Firefox 27+
-@supports (-moz-appearance:meterbar) and (list-style-type: japanese-formal) { .selector { } } - Firefox 28+
+@supports (-moz-appearance:meterbar) and (list-style-type:japanese-formal) { .selector { } } - Firefox 28+
 @media all and (min--moz-device-pixel-ratio:0) and (min-resolution:3e1dpcm) { .selector { } } - Firefox 29+ [this one already is firefox alone and works well]
 
 I do not have a version of firefox 30 to test, but if anyone can test it, by the same token this should also work:
