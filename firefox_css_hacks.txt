@@ -1,8 +1,14 @@
 
 Here are some css media query hack tests I have been conducting to isolate various versions of Firefox. 
-I have submitted these to browserhacks.com for inclusion.
+I have submitted most of these to browserhacks.com for inclusion.
 
 -Jeff- -
+
+
+Here is one I created to target Firefox 21+:
+
+_::-moz-range-track, .selector { }
+
 
 both of these I created work for firefox 22 and newer: 
 
