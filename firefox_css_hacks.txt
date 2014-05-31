@@ -78,6 +78,7 @@ media \0 all { }
 guillaume-simons posted a few css hacks to the forum, I modified them to target just Firefox:
 
 @supports (-moz-appearance:meterbar) and (cursor:zoom-in) { .selector { } } - Firefox 24+
+@supports (-moz-appearance:meterbar) and (background-attachment:local) { .selector { color:red; } } - Firefox 25+
 @supports (-moz-appearance:meterbar) and (image-orientation:90deg) { .selector { } } - Firefox 26+
 @supports (-moz-appearance:meterbar) and (all:initial) { .selector { } } - Firefox 27+
 @supports (-moz-appearance:meterbar) and (list-style-type:japanese-formal) { .selector { } } - Firefox 28+
