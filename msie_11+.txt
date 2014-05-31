@@ -1,0 +1,14 @@
+
+Both of these work for internet explorer 11 and newer:
+
+
+_::-ms-backdrop, body:last-child .selector { }
+
+_::-ms-backdrop, .selector:not([attr*='']) { } 
+
+
+I came up with this set when I was working on the firefox hacks and msie 10 hacks that are similar.
+
+Also submitted this to the browserhacks forum.
+
+Jeff
