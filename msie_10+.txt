@@ -5,4 +5,6 @@ _::-ms-ticks-after, body:last-child .selector { }
 
 I found it when I was working on the firefox hacks that are similar.
 
+Also submitted this to the browserhacks forum.
+
 Jeff
