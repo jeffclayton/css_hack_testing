@@ -26,22 +26,11 @@ _::-moz-progress-bar, .selector:not([attr*='']) { }
 
 both of these next ones I created work for firefox 22 and newer: 
 
-@supports (-moz-appearance:meterbar) and (display:flex)
-{ 
-   .selector 
-   { 
-      color:red; 
-   } 
-}
 
+@supports (-moz-appearance:meterbar) and (display:flex) { .selector { } }
 
-@supports (-moz-appearance:meterchunk) and (display:flex)
-{ 
-   .selector 
-   { 
-      color:red; 
-   } 
-}
+@supports (-moz-appearance:meterchunk) and (display:flex) { .selector { } }
+
 
 
 I Submitted these to browserhacks (firefox 8+ hacks are now posted on browserhacks.com)
@@ -51,16 +40,9 @@ I Submitted these to browserhacks (firefox 8+ hacks are now posted on browserhac
 Firefox 8+ (2 working media query hacks):
 
 
-@media all and (min--moz-device-pixel-ratio:0) and (min-resolution: .001dpcm)
-{
-   .selector { color:red }
-}
+@media all and (min--moz-device-pixel-ratio:0) and (min-resolution: .001dpcm) { .selector { } }
 
-
-@media all and (-moz-images-in-menus:0) and (min-resolution: .001dpcm)
-{
-   .selector { color:red; }
-}
+@media all and (-moz-images-in-menus:0) and (min-resolution: .001dpcm) { .selector { } }
 
 
 Firefox 3-
