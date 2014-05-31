@@ -5,11 +5,6 @@ I have submitted most of these to browserhacks.com for inclusion.
 -Jeff- -
 
 
-@media all and (-moz-os-version) { .selector { } } - Firefox 26+
-
-
-*********
-
 Here is one I created to target Firefox 21+: (2 methods)
 
 
