@@ -13,7 +13,7 @@ _::-moz-range-track, body:last-child .selector { }
 _::-moz-range-track, .selector:not([attr*='']) { } 
 
 
-and another one:
+and another one: (again 2 methods)
 
 
 /* Firefox 16+: */
