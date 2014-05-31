@@ -23,7 +23,7 @@ _::-moz-placeholder, .selector:not([attr*='']) { }
 and another one: (again 2 methods)
 
 
-for Firefox 16+: 
+for Firefox 6+: 
 
 _::-moz-progress-bar, body:last-child .selector { }
 
