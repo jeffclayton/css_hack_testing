@@ -7,7 +7,7 @@ _::-ms-ticks-after, body:last-child .selector { }
 _::-ms-ticks-after, .selector:not([attr*='']) { } 
 
 
-I found this set when I was working on the firefox hacks that are similar.
+I came up with this set when I was working on the firefox hacks that are similar.
 
 Also submitted this to the browserhacks forum.
 
