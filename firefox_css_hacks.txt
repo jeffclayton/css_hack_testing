@@ -48,10 +48,7 @@ Firefox 8+ (2 working media query hacks):
 Firefox 3-
 
 
-@media \0 all
-{
-   body:last-child .selector { color:red; }
-}
+@media \0 all { body:last-child .selector { color:red; } }
 
 
 notes: 
