@@ -16,7 +16,7 @@ _::-moz-range-track, .selector:not([attr*='']) { }
 and another one: (again 2 methods)
 
 
-/* Firefox 16+: */
+for Firefox 16+: 
 
 _::-moz-progress-bar, body:last-child .selector { }
 
