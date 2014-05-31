@@ -1,9 +1,13 @@
 
-This one works for internet explorer 10 and newer:
+Both of these work for internet explorer 10 and newer:
+
 
 _::-ms-ticks-after, body:last-child .selector { }
 
-I found it when I was working on the firefox hacks that are similar.
+_::-ms-ticks-after, .selector:not([attr*='']) { } 
+
+
+I found this set when I was working on the firefox hacks that are similar.
 
 Also submitted this to the browserhacks forum.
 
