@@ -4,6 +4,48 @@ I have submitted most of these to browserhacks.com for inclusion.
 
 -Jeff- -
 
+Here is the full set of underscore hacks I have found/created for Firefox.
+Others styles of Firefox hacks are here too after these.
+All of these have been modified to remove MSIE7 overlap.
+
+-
+
+Firefox 1+ (any version of Firefox)
+_:-moz-any-link, body:last-child .selector { } 
+
+Firefox 1.5+ 
+_:-moz-read-write, body:last-child .selector { } 
+
+Firefox 3+	 
+_:-moz-loading, body:last-child .selector { } 
+
+Firefox 3.5+ 
+_:-moz-handler-blocked, body:last-child .selector { } 
+
+Firefox 3.6+ 
+_:-moz-handler-crashed, body:last-child .selector { } 
+
+Firefox 4+	 
+_:-moz-ui-valid, body:last-child .selector { } 
+
+Firefox 6+	 
+_::-moz-progress-bar, body:last-child .selector { } 
+
+Firefox 9+	 
+_:-moz-full-screen, body:last-child .selector { } 
+
+Firefox 10+	 
+_:-moz-full-screen-ancestor, body:last-child .selector { } 
+
+Firefox 19+	 
+_::-moz-placeholder, body:last-child .selector { } 
+
+Firefox 21+	 
+_::-moz-range-track, body:last-child .selector { } 
+
+-
+
+More detail below:
 
 Here is one I created to target Firefox 21+: (2 methods)
 
