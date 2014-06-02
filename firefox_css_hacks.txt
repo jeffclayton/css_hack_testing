@@ -4,7 +4,7 @@ I have submitted most of these to browserhacks.com for inclusion.
 
 -Jeff- -
 
-Here are a couple of apparent polar opposites:
+Here are a couple of apparent polar opposites I crafted:
 
 
 This one appears to work for any firefox version, 
