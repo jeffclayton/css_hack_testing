@@ -1,0 +1,10 @@
+
+Another one of my underscore hacks:
+
+
+This works for Safari 5-6 only:
+
+_::-moz-svg-foreign-content, :root .selector { }
+
+
+-Jeff-
