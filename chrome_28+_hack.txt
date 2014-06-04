@@ -1,0 +1,12 @@
+
+Here is a combination of @media query and @supports that I put together. 
+I did not create either of them, just the combination. 
+
+You may recognize the @supports part of this from the contributions by guillaume-simons on the browserhacks forum.
+
+/* Chrome 28+ (and Opera 14+) */
+
+@media all and (-webkit-min-device-pixel-ratio:0) { @supports (background-attachment:local) {   
+      .selector {} 
+}}
+
