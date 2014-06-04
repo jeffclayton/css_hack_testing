@@ -15,10 +15,10 @@ _::selection, .selector:not([attr*='']) { }​
 
 sample usage:
 
-_::selection, .non_ff_browsers:not([attr*='']) /* anything but firefox */
+_::selection, .non_ff_browsers:not([attr*='']) /* anything but firefox and msie 8- */
 { 
 	background-color:#F33;
 	color:#fff; 
 }
 
-<div class="non_ff_browsers">Anything Except Firefox</div>
+<div class="non_ff_browsers">Anything Except Firefox and MSIE 8-</div>
