@@ -55,7 +55,8 @@ _::-moz-range-track, :root .selector { }
 
 More detail below:
 
-Here is one I created to target Firefox 21+, Safari 5-6: (3 methods that remove MSIE 7 results)
+Here is one I created to target Firefox 21+, Safari 5-6: 
+(3 methods that remove MSIE 7 results)
 
 
 _::-moz-range-track, :root .selector { } 
