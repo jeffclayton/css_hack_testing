@@ -1,6 +1,19 @@
 
-Both of these work for internet explorer 10 and newer:
+I have found this one for internet explorer 10 and newer:
 
+
+/* Internet Explorer 10+ */
+_:-ms-input-placeholder, :root .selector { }
+
+
+This one has MSIE 7 and msie 10+, so it works if you use the compatibility mode or not:
+
+
+/* Internet Explorer 7 (& ie compatability mode),10+ */
+_:-ms-input-placeholder, .selector { }
+
+
+These two are MSIE 10+ but also Safari 6-7, so not all that useful:
 
 _::-ms-ticks-after, body:last-child .selector { }
 
