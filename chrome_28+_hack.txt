@@ -1,6 +1,6 @@
 
 Here is a combination of @media query and @supports that I put together. 
-I did not create either of them, just the combination. 
+I did not create either of them, just the combination. Interesting that @media and @supports can nest in each other.
 
 You may recognize the @supports part of this from the contributions by guillaume-simons on the browserhacks forum.
 
