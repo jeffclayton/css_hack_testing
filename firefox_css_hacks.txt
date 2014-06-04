@@ -4,18 +4,10 @@ I have submitted most of these to browserhacks.com for inclusion.
 
 -Jeff- -
 
-Here are a couple of apparent polar opposites I crafted:
-
-
 This one appears to work for any firefox version, 
-but unlike most others does not also work for MSIE 7:
+but unlike most others does not also work for MSIE 7 so it is already very clean:
 
 _:-moz-tree-row(hover), .selector { }
-
-
-This one appears to work ONLY for MSIE 7 and not for firefox:
-
-_::-moz-svg-foreign-content, .selector { }
 
 
 Here is the full set of underscore hacks I have found/created for Firefox.
