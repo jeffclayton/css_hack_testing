@@ -13,7 +13,8 @@ _:-moz-tree-row(hover), .selector { }
 Here is the full set of underscore hacks I have found/created for Firefox.
 Others styles of Firefox hacks are here too after these.
 All of these have been modified to remove MSIE7 overlap.
-Some of these also affect Safari 5-6 so testing that will happen later...
+Some of these also affect Safari 5-6, and are noted. 
+If I find better ones, I will likely include them here as well.
 
 -
 
