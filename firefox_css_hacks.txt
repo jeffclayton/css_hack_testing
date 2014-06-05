@@ -1,11 +1,11 @@
 
-Here are some css media query hack tests I have been conducting to isolate various versions of Firefox. 
+Here are some css media query and underscore hack tests I have been conducting to isolate various versions of Firefox. 
 I have submitted most of these to browserhacks.com for review or inclusion.
 
 -Jeff- -
 
 This one appears to work for any firefox version, 
-but unlike most others does not also work for MSIE 7 so it is already very clean:
+but unlike most other underscore hacks does not also affect MSIE 7 so it is already very clean:
 
 _:-moz-tree-row(hover), .selector { }
 
