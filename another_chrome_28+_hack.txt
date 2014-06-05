@@ -1,5 +1,5 @@
 
-This one I found online, not created by me but tested...
+This one I found online, not created by me but tested and sent to browserhacks.com...
 
 
 It works for Chrome 28+ (and Opera 14+)
