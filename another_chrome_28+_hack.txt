@@ -2,7 +2,7 @@
 This one I found online, not created by me but tested...
 
 
-It works for Chrome 28+ (and of course Opera 14+)
+It works for Chrome 28+ (and Opera 14+)
 
 @supports (-webkit-appearance:none) { .selector { } }
 
