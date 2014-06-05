@@ -1,0 +1,16 @@
+
+This one I found online, not created by me but tested...
+
+
+It works for Chrome 28+ (and of course Opera 14+)
+
+@supports (-webkit-appearance:none) { .selector { } }
+
+
+It ignores Firefox 29-, Internet Explorer 11-, and Safari 7- based on my testing.
+
+Peace!
+
+-Jeff-
+
+
