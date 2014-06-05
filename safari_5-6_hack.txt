@@ -7,4 +7,7 @@ This works for Safari 5-6 only:
 _::-moz-svg-foreign-content, :root .selector { }
 
 
+I have worked on nearly 100 of these. Of these about a dozen do something interesting.
+
+
 -Jeff-
