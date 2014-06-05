@@ -1,5 +1,5 @@
 
-Here are some css media query and underscore hack tests I have been conducting to isolate various versions of Firefox. 
+Here are some css media query @supports, and underscore hacks I have worked on to isolate various versions of Firefox. 
 I have submitted most of these to browserhacks.com for review or inclusion.
 
 -Jeff- -
