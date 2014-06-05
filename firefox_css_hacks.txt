@@ -5,7 +5,7 @@ I have submitted most of these to browserhacks.com for review or inclusion.
 -Jeff- -
 
 This one appears to work for any firefox version and no other browser, 
-but unlike most other underscore hacks does not also affect MSIE 7 so it is already very clean:
+so unlike most other underscore hacks does not also affect MSIE 7 so it is already very clean:
 
 _:-moz-tree-row(hover), .selector { }
 
