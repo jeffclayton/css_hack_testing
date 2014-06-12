@@ -36,7 +36,7 @@ _:-moz-handler-crashed, :root .selector { }
 Firefox 4+	 
 _:-moz-ui-valid, :root .selector { } 
 
-Firefox 6+, Safari 5-6	 
+Firefox 6+, Safari 5.1-6	 
 _::-moz-progress-bar, :root .selector { } 
 
 Firefox 9+	 
@@ -45,10 +45,10 @@ _:-moz-full-screen, :root .selector { }
 Firefox 10+	 
 _:-moz-full-screen-ancestor, :root .selector { } 
 
-Firefox 19+, Safari 5-6
+Firefox 19+, Safari 5.1-6
 _::-moz-placeholder, :root .selector { } 
 
-Firefox 21+, Safari 5-6	 
+Firefox 21+, Safari 5.1-6	 
 _::-moz-range-track, :root .selector { } 
 
 -
@@ -66,7 +66,7 @@ _::-moz-range-track, body:last-child .selector { }
 _::-moz-range-track, .selector:not([attr*='']) { } 
 
 
-for Firefox 19+, Safari 5-6: 
+for Firefox 19+, Safari 5.1-6: 
 
 _::-moz-placeholder, body:last-child .selector { }
 
@@ -76,7 +76,7 @@ _::-moz-placeholder, .selector:not([attr*='']) { }
 and another one: (again 2 methods)
 
 
-for Firefox 6+, Safari 5-6: 
+for Firefox 6+, Safari 5.1-6: 
 
 _::-moz-progress-bar, body:last-child .selector { }
 
