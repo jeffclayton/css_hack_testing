@@ -1,0 +1,10 @@
+
+Finally finished one that works for Safari 6.1 and newer...
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) 
+{ 
+   .selector {(;   property:value;   );} 
+}
+
+I just posted this as a new hack to browserhacks, maybe people can make use of it!
+
