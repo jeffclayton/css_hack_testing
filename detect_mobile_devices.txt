@@ -15,7 +15,7 @@ These work for high definition mobile devices (and some zoomed in devices):
 
 
 
-/* For Chrome and Safari (not hi-def mobile): */
+/* For Chrome 2+ and Safari 4+ (not hi-def mobile): */
 
 
 @media (-webkit-max-device-pixel-ratio: 1) { 
