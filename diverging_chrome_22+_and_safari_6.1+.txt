@@ -1,0 +1,35 @@
+
+
+Here is another one that I have been working on for some time.
+
+
+At this time 6.1 (and 7) of Safari are able to be separated by CSS from Chrome 22+ (tested up to version 28)
+
+The Safari 6.1+ hack I worked out already is the key:
+
+
+/* Safari 6.1+  */
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
+   .selector {(; property:value; );} 
+}
+
+
+Over the weekend I came up with this one that works for both Safari 6.1 and Chrome 22+,
+so define this one first and they can be split:
+
+
+/* Safari 6.1+ and Chrome 22+ */
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm),
+   screen and(-webkit-min-device-pixel-ratio:0) { 
+      .selector { property:value; } 
+}
+
+
+
+It will be interesting to see how iOS 8 and OS X 10.10 Yosimite handle these...
+
+Jeff
