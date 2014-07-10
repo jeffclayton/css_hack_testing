@@ -6,6 +6,7 @@ These work for high definition mobile devices (and some zoomed in devices):
 
 
 /* For Android and Safari (hi-def mobile): */
+/* iOS (iOS Safari 3.2+), Android (Base browser 2.1+ & Chrome 22+, Opera Mobile 10+) */
 
 
 @media (-webkit-min-device-pixel-ratio: 1.1) { 
