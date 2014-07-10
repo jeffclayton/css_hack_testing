@@ -57,7 +57,7 @@ For more specific browser targeting...
 
 
 
-/* For Firefox (not hi-def mobile): */
+/* For Firefox 4+ (not hi-def mobile): */
 
 
 @media screen and (max--moz-device-pixel-ratio:1) { 
