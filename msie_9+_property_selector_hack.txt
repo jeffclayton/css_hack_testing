@@ -1,0 +1,13 @@
+
+The _::selection hack I created recently I found can be edited and combined with 
+the well-known ie8+ property hack to create an simple hack for Internet Explorer 9+.
+
+/* Internet Explorer 9+ */
+_::selection, { property:value\9; }
+
+I just posted this to BrowserHacks.com for possible inclusion.
+
+Cheers!
+
+Jeff
+
