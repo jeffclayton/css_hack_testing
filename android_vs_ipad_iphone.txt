@@ -2,11 +2,15 @@ I have been working on finding a way to target Androids or iPads/iPhones (separa
 
 This one is one I just made this weekend. It targets webkit (chrome/safari/android browser) but this one segregates itself from iOS devices. In other words, this one works on Android and Desktop/Laptop devices but not on iPad/iPhone.
 
+
 /* Safari 5.1+, Chrome 15+, Android Browser (Android 4+, not iOS) */
 /* Desktops, Laptops, Mobiles */
 
 _:-webkit-full-screen, :root .selector { property:value; }
+
+
 If you wish to target hi-def mobiles, but not desktops/laptops:
+
 
 /* Chrome 15+, Android Browser (Android 4+, not iOS) */
 /* Mobiles (High-Definition) */
@@ -14,7 +18,10 @@ If you wish to target hi-def mobiles, but not desktops/laptops:
 @media screen and (-webkit-min-device-pixel-ratio:1.1) {
     _:-webkit-full-screen, .selector { property:value; } 
 }
+
+
 Or conversely, if you wish to avoid hi-def mobiles but target desktops (and old non-hi-definition mobiles) this should do the trick:
+
 
 /* Safari 5.1+, Chrome 15+, Android Browser (Android 4+, not iOS) */
 /* Desktops, Laptops, Old Mobiles (Not High-Definition) */
