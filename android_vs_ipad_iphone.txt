@@ -1,6 +1,9 @@
-I have been working on finding a way to target Androids or iPads/iPhones (separately) and this one I have worked out appears to do the job nicely.
+I have been working on finding a way to target Androids or iPads/iPhones (separately) 
+and this one I have worked out appears to do the job nicely.
 
-This one is one I just made this weekend. It targets webkit (chrome/safari/android browser) but this one segregates itself from iOS devices. In other words, this one works on Android and Desktop/Laptop devices but not on iPad/iPhone.
+This one is one I just made this weekend. It targets webkit (chrome/safari/android browser) 
+but this one segregates itself from iOS devices. In other words, this one works on Android and 
+Desktop/Laptop devices but not on iPad/iPhone.
 
 
 /* Safari 5.1+, Chrome 15+, Android Browser (Android 4+, not iOS) */
@@ -20,7 +23,8 @@ If you wish to target hi-def mobiles, but not desktops/laptops:
 }
 
 
-Or conversely, if you wish to avoid hi-def mobiles but target desktops (and old non-hi-definition mobiles) this should do the trick:
+Or conversely, if you wish to avoid hi-def mobiles but target desktops (and old non-hi-definition mobiles) 
+this should do the trick:
 
 
 /* Safari 5.1+, Chrome 15+, Android Browser (Android 4+, not iOS) */
