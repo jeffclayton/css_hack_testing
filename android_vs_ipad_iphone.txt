@@ -33,3 +33,5 @@ this should do the trick:
 @media screen and (-webkit-max-device-pixel-ratio:1) {
     _:-webkit-full-screen, .selector { property:value; } 
 }
+
+--Jeff
