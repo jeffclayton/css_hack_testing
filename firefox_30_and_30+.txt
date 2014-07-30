@@ -1,0 +1,15 @@
+
+We had up to Firefox 30+ and a few minutes ago I got the notice that Firefox 31 was released.
+I found a way to create a hack to separate it from firefox 30 from their release notes:
+
+/* Firefox 4-30 */
+_::-moz-math-stretchy, _:-moz-ui-valid, :root .selector { property:value; }
+
+For that matter, here is one I just created for just Firefox 30...
+
+/* Firefox 30 */
+@supports (background-blend-mode:difference,normal) {
+    _::-moz-math-stretchy, .selector { property:value; } 
+}
+
+--Jeff
