@@ -1,0 +1,16 @@
+
+I still see WinXP in the wild so here goes... 
+I made a pair last night that do this:
+
+/* Anything but Internet Explorer 8 (also not 6-) */
+_-webkit-full-screen-ancestor:root, .selector { property:value; }
+
+This one is a bit cleaner...
+
+/* Anything but Internet Explorer 8 (also not 6-) */
+_:root, .selector { }
+
+The above is based on the :root selector from the CSS3 Standard:
+
+/* Anything but Internet Explorer 8- */
+:root .selector { }
