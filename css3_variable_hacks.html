@@ -5,7 +5,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size:16px;
+    font-size:14px;
 }
 
 pre {
@@ -50,7 +50,8 @@ This will show up in white on dark blue in Firefox >= 31<br>
 <pre>
 /* Firefox 31+ (CSS3 Variable Method - Underscore Hack) */
 
-_:-moz-tree-row(hover), .ff31uup {
+_:-moz-tree-row(hover), .ff31uup 
+{
    --ffvar1:#008; background-color:var(--ffvar1);
    --ffvar2:#fff; color:var(--ffvar2); 
 }
@@ -63,8 +64,10 @@ _:-moz-tree-row(hover), .ff31uup {
 <pre>
 /* Firefox 31+ (CSS3 Variable Method - Supports Hack) */
 
-@supports (-moz-appearance:meterbar) {
-   .ff31sup {
+@supports (-moz-appearance:meterbar) 
+{
+   .ff31sup 
+   {
       --ffvar1:#008; background-color:var(--ffvar1);
       --ffvar2:#fff; color:var(--ffvar2); 
    }
