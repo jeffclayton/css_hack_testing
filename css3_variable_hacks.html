@@ -1,0 +1,59 @@
+<html>
+<head>
+
+/* Firefox 31+  */
+
+_:-moz-tree-row(hover), .ff31up {
+   --ffvar1:#008; background-color:var(--ffvar1);
+   --ffvar2:#fff; color:var(--ffvar2); 
+}
+
+</head>
+<body>
+Firefox 31 is the first browser to support CSS3 Variables,<br>
+so here are my first CSS hacks using them.<br>
+<br>
+Just make sure that you use a different variable in each definition.<br>
+They really are variables, not constants, so they can override each other.<br>
+<pre>
+/* Firefox 31+ (CSS3 Variable Method) */
+
+_:-moz-tree-row(hover), .selector {
+    --this-variable:value; property:var(--this-variable);
+}
+</pre>
+And using a supports method…<br>
+<br>
+<pre>
+/* Firefox 31+ (CSS3 Variable Method) */
+
+@supports (-moz-appearance:meterbar) {
+    .selector {
+       --this-variable:value; property:var(--this-variable);
+    }
+}
+</pre>
+Other browsers are supposed to follow suit, but for now just Firefox 31 and newer.<br>
+<br>
+Jeff<br>
+<br>
+Example Usage:<br>
+<br>
+<pre>
+/* Firefox 31+  */
+
+_:-moz-tree-row(hover), .ff31up {
+   --ffvar1:#008; background-color:var(--ffvar1);
+   --ffvar2:#fff; color:var(--ffvar2); 
+}
+</pre>
+
+This will show up in white on dark blue in Firefox >= 31<br>
+<br>
+
+<div class='ff31up'>
+   Firefox 31 and Newer (Using CSS3 Variables)
+</div>
+
+</body>
+</html>
