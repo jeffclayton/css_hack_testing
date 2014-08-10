@@ -46,4 +46,4 @@ This will show up in white on dark blue in Firefox >= 31
    Firefox 31 and Newer (Using CSS3 Variables)
 </div>
 
-I just submitted this to browserhacks.com
+I just submitted this to the browserhacks.com forum
