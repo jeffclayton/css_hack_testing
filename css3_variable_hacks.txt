@@ -20,7 +20,8 @@ And using a supports method…
 
 @supports (-moz-appearance:meterbar) 
 {
-    .selector {
+    .selector 
+    {
        --this-variable:value; property:var(--this-variable);
     }
 }
