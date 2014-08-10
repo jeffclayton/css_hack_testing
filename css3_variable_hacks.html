@@ -20,16 +20,19 @@ pre {
 }
 
 /* Firefox 31+ (CSS3 Variable Method) */
-_:-moz-tree-row(hover), .ff31uup {
-   --ffvar1:#008; background-color:var(--ffvar1);
-   --ffvar2:#fff; color:var(--ffvar2); 
+_:-moz-tree-row(hover), .ff31uup 
+{
+   --ffvar1: blue; background-color: var(--ffvar1);
+   --ffvar2: white; color: var(--ffvar2); 
 }
 
 /* Firefox 31+ (CSS3 Variable Method) */
-@supports (-moz-appearance:meterbar) {
-    .ff31sup {
-       --ffvar1:#008; background-color:var(--ffvar1);
-       --ffvar2:#fff; color:var(--ffvar2); 
+@supports (-moz-appearance:meterbar) 
+{
+    .ff31sup 
+    {
+       --ffvar1: blue; background-color: var(--ffvar1);
+       --ffvar2: white; color: var(--ffvar2); 
     }
 }
 
@@ -52,8 +55,8 @@ This will show up in white on dark blue in Firefox >= 31<br>
 
 _:-moz-tree-row(hover), .selector 
 {
-   --ffvar1:#008; background-color:var(--ffvar1);
-   --ffvar2:#fff; color:var(--ffvar2); 
+   --myvar1: blue; background-color:v ar(--myvar1);
+   --myvar2: white; color: var(--myvar2); 
 }
 </pre>
 </div>
@@ -68,8 +71,8 @@ _:-moz-tree-row(hover), .selector
 {
    .selector 
    {
-      --ffvar1:#008; background-color:var(--ffvar1);
-      --ffvar2:#fff; color:var(--ffvar2); 
+      --myvar1: blue; background-color: var(--myvar1);
+      --myvar2: white; color: var(--myvar2); 
    }
 }
 </pre>
