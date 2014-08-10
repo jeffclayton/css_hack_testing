@@ -1,0 +1,26 @@
+
+Firefox 31 is the first browser to support CSS3 Variables,
+so here are my first CSS hacks using them.
+
+Just make sure that you use a different variable in each definition.
+They really are variables, not constants, so they can override each other.
+
+/* Firefox 31+ (CSS3 Variable Method) */
+
+_:-moz-tree-row(hover), .selector {
+    --this-variable:value; property:var(--this-variable);
+}
+
+And using a supports method…
+
+/* Firefox 31+ (CSS3 Variable Method) */
+
+@supports (-moz-appearance:meterbar) {
+    .selector {
+       --this-variable:value; property:var(--this-variable);
+    }
+}
+
+Other browsers are supposed to follow suit, but for now just Firefox 31 and newer.
+
+Jeff
