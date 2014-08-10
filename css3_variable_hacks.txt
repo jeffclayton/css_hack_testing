@@ -9,7 +9,8 @@ They really are variables, not constants, so they can override each other.
 
 /* Firefox 31+ (CSS3 Variable Method) */
 
-_:-moz-tree-row(hover), .selector {
+_:-moz-tree-row(hover), .selector 
+{
     --this-variable:value; property:var(--this-variable);
 }
 
@@ -17,7 +18,8 @@ And using a supports method…
 
 /* Firefox 31+ (CSS3 Variable Method) */
 
-@supports (-moz-appearance:meterbar) {
+@supports (-moz-appearance:meterbar) 
+{
     .selector {
        --this-variable:value; property:var(--this-variable);
     }
@@ -31,9 +33,10 @@ Example Usage:
 
 /* Firefox 31+  */
 
-_:-moz-tree-row(hover), .ff31up {
-   --ffvar1:#008; background-color:var(--ffvar1);
-   --ffvar2:#fff; color:var(--ffvar2); 
+_:-moz-tree-row(hover), .ff31up 
+{
+   --myvar1: navy; background-color: var(--myvar1);
+   --myvar2: white; color: var(--myvar2); 
 }
 
 This will show up in white on dark blue in Firefox >= 31
