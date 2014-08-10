@@ -24,3 +24,20 @@ And using a supports method…
 Other browsers are supposed to follow suit, but for now just Firefox 31 and newer.
 
 Jeff
+
+Example Usage:
+
+/* Firefox 31+  */
+
+_:-moz-tree-row(hover), .ff31up {
+   --ffvar1:#008; background-color:var(--ffvar1);
+   --ffvar2:#fff; color:var(--ffvar2); 
+}
+
+This will show up in white on dark blue in Firefox >= 31
+
+<div class='ff31up'>
+   Firefox 31 and Newer (Using CSS3 Variables)
+</div>
+
+I just submitted this to browserhacks.com
