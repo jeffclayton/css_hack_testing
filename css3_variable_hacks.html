@@ -12,18 +12,27 @@ pre {
 	font-size:18px;
 }
 
-.ff31up { padding:4px; background-color:#ddd; border: 1px solid #bbb;
+.ff31up, ff31mqup { padding:4px; background-color:#ddd; border: 1px solid #bbb;
 	-webkit-border-radius: 6px; /* chrome and safari browsers */
 	-moz-border-radius: 6x; /* mozilla firefox */
 	-khtml-border-radius: 6px; /* some linux browsers */
 	border-radius: 6px; /* w3c standard */ 
 }
 
-/* Firefox 31+  */
+/* Firefox 31+ (CSS3 Variable Method) */
 _:-moz-tree-row(hover), .ff31up {
    --ffvar1:#008; background-color:var(--ffvar1);
    --ffvar2:#fff; color:var(--ffvar2); 
 }
+
+/* Firefox 31+ (CSS3 Variable Method) */
+@supports (-moz-appearance:meterbar) {
+    .ff31mqup {
+   --ffvar3:#008; background-color:var(--ffvar3);
+   --ffvar4:#fff; color:var(--ffvar4); 
+    }
+}
+
 </style>
 </head>
 <body>
@@ -39,14 +48,28 @@ This will show up in white on dark blue in Firefox >= 31<br>
 
 <div class='ff31up'>
 <pre>
-/* Firefox 31+  */
-
+/* Firefox 31+ (CSS3 Variable Method - Underscore Hack) */
 _:-moz-tree-row(hover), .ff31up {
    --ffvar1:#008; background-color:var(--ffvar1);
    --ffvar2:#fff; color:var(--ffvar2); 
 }
 </pre>
 </div>
+
+
+<div class='ff31mqup'>
+<pre>
+/* Firefox 31+ (CSS3 Variable Method - Supports Hack) */
+@supports (-moz-appearance:meterbar) {
+    .ff31mqup {
+   --ffvar3:#008; background-color:var(--ffvar3);
+   --ffvar4:#fff; color:var(--ffvar4); 
+    }
+}
+</pre>
+</div>
+
+
 
 </body>
 </html>
