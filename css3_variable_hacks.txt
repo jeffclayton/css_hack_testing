@@ -1,4 +1,6 @@
 
+TEST PAGE: http://jeffclayton.github.io/css_hack_testing/css3_variable_hacks.html
+
 Firefox 31 is the first browser to support CSS3 Variables,
 so here are my first CSS hacks using them.
 
