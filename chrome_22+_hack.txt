@@ -1,0 +1,15 @@
+
+I came up with this one that works for Chrome 22+:
+
+
+/* Chrome 22+ */
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm),
+   screen and(-webkit-min-device-pixel-ratio:0) { 
+      _::content, .selector { property:value; } 
+}
+
+
+
+Jeff
