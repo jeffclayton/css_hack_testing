@@ -16,16 +16,15 @@ The Safari 6.1+ hack I worked out already is the key:
 }
 
 
-Over the weekend I came up with this one that works for both Safari 6.1 and Chrome 22+,
-so define this one first and they can be split:
+I came up with this one that works for Chrome 22+:
 
 
-/* Safari 6.1+ and Chrome 22+ */
+/* Chrome 22+ */
 
 
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm),
    screen and(-webkit-min-device-pixel-ratio:0) { 
-      .selector { property:value; } 
+      _::content, .selector { property:value; } 
 }
 
 
