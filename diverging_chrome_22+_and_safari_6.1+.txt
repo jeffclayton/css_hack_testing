@@ -5,6 +5,20 @@ Here is another one that I have been working on for some time.
 
 At this time 6.1 (and 7) of Safari are able to be separated by CSS from Chrome 22+ (tested up to version 28)
 
+
+I came up with this one that works for Chrome 22+:
+
+
+/* Safari 6.1+, Chrome 22+ */
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm),
+   screen and(-webkit-min-device-pixel-ratio:0) { 
+      .selector { property:value; } 
+}
+
+
+
 The Safari 6.1+ hack I worked out already is the key:
 
 
@@ -15,17 +29,6 @@ The Safari 6.1+ hack I worked out already is the key:
    .selector {(; property:value; );} 
 }
 
-
-I came up with this one that works for Chrome 22+:
-
-
-/* Chrome 22+ */
-
-
-@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm),
-   screen and(-webkit-min-device-pixel-ratio:0) { 
-      _::content, .selector { property:value; } 
-}
 
 
 
