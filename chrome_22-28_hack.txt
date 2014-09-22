@@ -1,0 +1,12 @@
+
+Use this new one I have built and a chrome 28+ or 29+ hack to reach farther back in chrome history:
+
+/* Chrome 22-28 */
+
+@media screen and(-webkit-min-device-pixel-ratio:0) {
+    .selector {-chrome-:only(;
+        property:value;
+    );}
+}
+
+-Jeff
