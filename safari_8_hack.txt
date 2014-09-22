@@ -1,0 +1,7 @@
+
+Here is one I created for Safari 8:
+
+_::-webkit-full-page-media, _:future, :root .selector { property:value; }
+
+
+I sent this to browserhacks, maybe people can make use of it!
