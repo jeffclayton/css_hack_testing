@@ -1,10 +1,16 @@
 
-Finally finished one that works for Safari 6.1 and newer...
+Finally finished one that works for Safari 6.1 
+(update: this works for Safari 6.1 and 7)
 
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) 
 { 
    .selector {(;   property:value;   );} 
 }
 
-I just posted this as a new hack to browserhacks, maybe people can make use of it!
 
+Here is one I created for Safari 8:
+
+_::-webkit-full-page-media, _:future, :root .selector { property:value; }
+
+
+I sent these hacks to browserhacks, maybe people can make use of them!
