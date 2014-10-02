@@ -1,5 +1,5 @@
 
-Here is one I created for Safari 8:
+Here is one I created for Safari 7.1-8.0:
 
 _::-webkit-full-page-media, _:future, :root .selector { property:value; }
 
