@@ -1,6 +1,6 @@
 
 Finally finished one that works for Safari 6.1 
-(update: this works for Safari 6.1 and 7)
+(update: this works for Safari 6.1-7.0)
 
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) 
 { 
