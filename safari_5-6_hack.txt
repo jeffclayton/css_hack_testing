@@ -2,7 +2,7 @@
 Another one of my underscore hacks:
 
 
-This works for Safari 5.1-6 only:
+This works for Safari 5.1-6.0 and Chrome 10-24:
 
 _::-moz-svg-foreign-content, :root .selector { }
 
