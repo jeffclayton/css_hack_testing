@@ -18,7 +18,7 @@ And using a supports method…
 
 /* Firefox 31+ (CSS3 Variable Method) */
 
-@supports (-moz-appearance:meterbar) 
+@supports (-moz-appearance:none) 
 {
     .selector 
     {
