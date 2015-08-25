@@ -1,0 +1,28 @@
+These are my legal CSS Hacks for fixing web browser quirks or outright bugs. Please enjoy, I have been working on them for years. May it help you if you need them. Please read here first: [What are these CSS Hacks Anyway?] Then check my [Live CSS Hacks Test Page] and also [BrowserHacks.com] where I sent new hacks and test submissions for the site.
+Update: These are tested in Windows 10's release version.
+
+---
+
+The Production Version of Windows 10 has just been released which includes the new Edge (Formerly the Spartan Project) web browser. The CSS rendering engine has differences. In 2010 there was a push for Microsoft to add -webkit- prefixes to the CSS settings but that was thrown out after a little time in the sun.
+
+Windows phones supporting Windows 8.1 Mobile (using Internet Explorer 11) and now also Windows 10 have decided to bring back that idea and alias multiple webkit prefixes to match the standard CSS features. What this means is that many of the CSS hacks for Chrome or Safari that are in the wild are also be picked up by Microsoft's Edge Browser.
+
+The final CSS for Windows 10 and the new Edge Browser is complete at this time, and I have made the updates here since the preview versions which combined MSIE 11 and Edge capabilities in many cases.
+
+So for the Windows 10's Edge Browser here are some that target JUST that browser:
+
+/* Windows 10 Edge Browser @supports method */
+
+@supports (-ms-accelerator:true) {
+  .selector { property:value; } 
+}
+And for those who like one-liners as well:
+
+/* Windows 10 Edge Browser one-liner method */
+
+_:-ms-lang(x), _:-webkit-full-screen, .selector { property:value; }
+If you had been following my postings during the Windows 10 Technical Preview (back when they were calling the 'Edge' browser 'Project Spartan', you may recall I had a third one I developed and was working on (a media query.) The end result is how these things work - during the preview process it worked, and several worked for both Internet Explorer 11 AND Microsoft Edge. When the final version of Windows 10 was released, these two still were effective but the third one only worked on the preview version. I am not concerned with 'preview-only' hacks, but only with ones that affect the browser world as a whole - so I removed it and only the two final working versions of my CSS hacks for the MS Edge Brower are here.
+
+Like the majority of my testing, they can be viewed live here on my live CSS Hacks testing page:
+
+http://browserstrangeness.bitbucket.org/css_hacks.html
