@@ -1,5 +1,8 @@
 These are my legal CSS Hacks for fixing web browser quirks or outright bugs. Please enjoy, I have been working on them for years. May it help you if you need them. Please read here first: [What are these CSS Hacks Anyway?] Then check my [Live CSS Hacks Test Page] and also [BrowserHacks.com] where I sent new hacks and test submissions for the site.
+
 Update: These are tested in Windows 10's release version.
+
+ [From my April 2015 original posting and subsequent updates at http://jeffclayton.wordpress.com]
 
 ---
 
