@@ -1,0 +1,19 @@
+<html>
+<head>
+
+  <link rel="stylesheet" type="text/css" href="https://jeffclayton.github.io//embedded_nonssl.css" media="screen" />
+  
+</head>
+<body>
+
+This page loads an external ssl css file, which in turn loads a non-ssl (unencrypted) ssl file.<br>
+
+<br>
+
+Firefox 23 is weeded around via this method.<br>
+Version 23 for security reasons removed the ability to load a non-secure page from within a secure page.<br>
+Loading a ssl-encrypted css page which in turn loads an unencrypted css page does this.<br>
+All modern web browsers (Chrome, Safari) already do this, so to specify only firefox, extra css is required.
+
+</body>
+</hmtl>
