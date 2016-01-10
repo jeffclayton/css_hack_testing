@@ -1,0 +1,27 @@
+<html> <!-- https://cdn.rawgit.com/jeffclayton/css_hack_testing/master/mixed_ssl_css.htm //-->
+<head>
+
+  <link rel="stylesheet" type="text/css" href="https://rawgit.com/jeffclayton/css_hack_testing/master/embedded_ssl.css" media="screen" />
+  
+</head>
+<body>
+
+This page loads an external ssl css file, which in turn loads a non-ssl (unencrypted) ssl file.<br>
+
+<br>
+
+Firefox 23 is weeded around via this method.<br>
+Version 23 for security reasons removed the ability to load a non-secure page from within a secure page.<br>
+Loading a ssl-encrypted css page which in turn loads an unencrypted css page does this.<br>
+All modern web browsers (Chrome, Safari) already do this, so to specify only firefox, extra css is required.<br>
+
+<br>
+
+<div class="ff23up_via_embedded_nonssl">Firefox 23+ Detected</div>
+
+<div class="ff23via_embedded_nonssl">Firefox 23 Detected</div>
+
+<div class="ff22embedded_nonssl">Firefox 22 Detected</div>
+
+</body>
+</hmtl>
