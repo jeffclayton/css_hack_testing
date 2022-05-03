@@ -1,4 +1,6 @@
 
+2022 update: modern macbooks and laptops detect with the 1.1+ pixel ration now, neither of the javascript methods detect iOS now
+
 A basic idea that seems to do the job...
 
 These work for high definition mobile devices (and some zoomed in devices):
